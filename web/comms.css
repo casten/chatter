@@ -1,0 +1,78 @@
+
+
+div {
+    float: left;
+    align: center;
+    margin-top: 10px;
+}
+
+img {
+    height: 25px;
+    float: right;
+}
+
+.vertical {
+    float: bottom;
+    width: 99%;
+}
+
+#received, #send_options {
+    font-size: 20px;
+}
+
+#name_group {
+    width: 100%;
+}
+
+.theRest {
+    height: calc(100% - 50px);
+    top: 100px;
+    width: 100%;
+}
+
+.received {
+    height: 50%;
+    border: solid;
+    padding: 0.5rem;
+}
+
+#broadcast_group{
+    height: 50%;
+}
+
+#broadcast_text, #personal_text {
+    height: 70%;
+}
+
+#personal_group {
+    height: 50%;
+}
+
+#received_group, #send_group, #send_options {
+    width: 100%
+}
+
+#send {
+    float: right;
+}
+
+#sent_text {
+    height: 70%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+}
+
+body {
+    height: 100%;
+    width: 99%;
+}
+
+html {
+    height: 100%;
+    width: 97%;
+}
+

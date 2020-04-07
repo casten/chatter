@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./comms.css">
+    <script src="./view.js"></script>
+</head>
+<body onload="connect()">
+
+<div id="main">
+    <div class="vertical" id="name_group">
+        <label for="fname" autocomplete="on" ><b>Name:</b></label><br>
+        <input type="text" id="fname" val="Name" name="fname">
+        <img id="disconnected" src="http://i.postimg.cc/tCxY7b4z/disconnected-icon-3-256.png">
+        <img id="connected" src="http://i.postimg.cc/L8k5BVfY/connected-icon-3-256.png" hidden="true">
+
+    </div>
+    <div class="vertical, received" id="received_group">
+        <div class="vertical" id="received">Received</div>
+        <div class="theRest">
+            <div class="vertical" id="broadcast_group">
+                <div>Group</div>
+                <textArea id="broadcast_text" class="vertical"></textArea>
+            </div>
+            <div class="vertical" id="personal_group">
+                <div >Personal</div>
+                <textArea id="personal_text" class="vertical"></textArea>
+            </div>
+        </div>
+    </div>
+    <div class="vertical, received" id="send_group">
+        <div id="send_options">Sent<br>
+            <select id="recipient">
+                 <option value="Everyone">Everyone</option>
+            </select>
+            <button id="send">Send</button>
+        </div>
+        <div class="theRest">
+            <div>Message</div>
+            <textArea id="message" class="vertical"></textArea>
+            <div>Sent</div>
+            <textArea id="sent_text" class="vertical"></textArea>
+        </div>
+    </div>
+</div>
+</body>
+</html>
